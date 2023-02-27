@@ -49,6 +49,23 @@
   </div>
 </div>
         </section>
+        </section>
+        <section id="toy-products" class="mt-5">
+            <h2>Cucce <i class="<?= KernelProduct::$icon ?>"></i></h2>
+                        <div class="card">
+  <div class="card-header">
+<i class="<?= KernelProduct::$icon ?>"></i>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title"><?php $kernel->getName(); ?></h5>
+    <p class="card-text"><?= $kernel->getDescription() ?></p>
+    <p class="card-text">Prezzo: Euro<?= $kernel->getPrice() ?></p>
+    <p class="card-text">Dimensioni: <?= $kernel->getSize() ?></p>
+    <p class="card-text">Colore: <?= $kernel->getColor() ?></p>
+    
+  </div>
+</div>
+        </section>
     </div>
 </main>
 </body>
